@@ -1,0 +1,18 @@
+{
+  "name": "scrapping_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check": "node --check index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.16.3",
+    "puppeteer": "^24.36.1"
+  },
+  "private": true
+}

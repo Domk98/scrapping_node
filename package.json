@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "name": "scrapping_node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Consulta automatizada de actividad web con Puppeteer y almacenamiento MySQL",
+  "scripts": {
+    "start": "node node.js/server.js",
+    "scrape": "node node.js/runcbhours.js",
+    "check": "node --check node.js/server.js && node --check node.js/index.js && node --check node.js/scraper.js && node --check node.js/scraper_strip.js && node --check node.js/runcbhours.js && node --check node.js/conexion.js && node --check node.js/tiempo.model.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
